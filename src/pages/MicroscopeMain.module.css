@@ -1,0 +1,646 @@
+.microscopeMainChild,
+.microscopeMainItem {
+  position: absolute;
+  top: 387px;
+  left: 0;
+  background-color: #daf2ca;
+  width: 1440px;
+  height: 708px;
+}
+.microscopeMainItem {
+  top: 1095px;
+  left: -1px;
+  background-color: #c8e7f0;
+  height: 940px;
+}
+.microscopeMainInner {
+  position: absolute;
+  top: 640px;
+  left: 332px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 777px;
+  height: 364px;
+}
+.productsBanner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+  width: 1441px;
+  height: 303px;
+}
+.dontJustLook {
+  margin: 0;
+}
+.explore {
+  margin: 0;
+  font-size: 64px;
+  color: #0032e1;
+}
+.dontJustLookContainer {
+  position: absolute;
+  top: 106px;
+  left: 580px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 280px;
+  height: 181px;
+}
+.productsBannerParent {
+  position: absolute;
+  top: 84px;
+  left: -1px;
+  width: 1441px;
+  height: 303px;
+  text-align: center;
+  font-size: 32px;
+}
+.home,
+.products {
+  position: relative;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+}
+.home {
+  display: inline-block;
+  width: 59px;
+  flex-shrink: 0;
+}
+.products {
+  text-decoration: underline;
+}
+.productsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.about {
+  position: relative;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+}
+.navLinks {
+  position: absolute;
+  top: 28px;
+  left: 1012px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.theIris {
+  position: absolute;
+  top: 27px;
+  left: 140px;
+  font-size: 24px;
+  text-transform: capitalize;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+}
+.logo2Icon {
+  position: absolute;
+  top: 23px;
+  left: 76px;
+  width: 44px;
+  height: 45px;
+  object-fit: cover;
+}
+.navs {
+  position: absolute;
+  top: 5px;
+  left: -3px;
+  background-color: #17002c;
+  border: 4px solid #000;
+  box-sizing: border-box;
+  width: 1449px;
+  height: 83px;
+  overflow: hidden;
+}
+.pocketMicroscope {
+  font-size: 24px;
+  font-weight: 600;
+}
+.blankLine,
+.pocketMicroscope,
+.rs699Only {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.rs699Only {
+  font-size: 16px;
+  font-weight: 500;
+}
+.pocketMicroscopeYourContainer {
+  position: absolute;
+  top: 679px;
+  left: 774px;
+  display: inline-block;
+  width: 309px;
+  height: 198px;
+}
+.image9Icon {
+  position: absolute;
+  top: 679px;
+  left: 390px;
+  border-radius: 10px;
+  width: 307px;
+  height: 233px;
+  object-fit: cover;
+}
+.explorerKit,
+.yourKitYour {
+  position: absolute;
+  top: 520px;
+  left: 291px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.yourKitYour {
+  top: 580px;
+  left: 321px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.groupChild {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  border-radius: 10px;
+  background-color: #17002c;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  width: 134.38px;
+  height: 40px;
+}
+.details {
+  position: absolute;
+  top: 9.28px;
+  left: 25.91px;
+  font-size: 16px;
+  font-family: "Fredoka One";
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  width: 132.55px;
+  height: 20.08px;
+}
+.image2Icon,
+.image2Wrapper,
+.rectangleParent {
+  position: absolute;
+  width: 25.37px;
+  height: 22.67px;
+}
+.image2Icon {
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.image2Wrapper,
+.rectangleParent {
+  top: 7.89px;
+  left: 102.9px;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 877px;
+  left: 774px;
+  width: 158.45px;
+  height: 38px;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 1232px;
+  left: 331px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 777px;
+  height: 345px;
+}
+.pocketMicroscopeYourContainer1 {
+  position: absolute;
+  top: 1290px;
+  left: 774px;
+  display: inline-block;
+  width: 309px;
+  height: 198px;
+}
+.image10Icon {
+  position: absolute;
+  top: 1290px;
+  left: 390px;
+  border-radius: 10px;
+  width: 307px;
+  height: 233px;
+  object-fit: cover;
+}
+.myoKits,
+.ourDesignYour {
+  position: absolute;
+  top: 1131px;
+  left: 291px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.ourDesignYour {
+  top: 1191px;
+  left: 321px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1488px;
+  left: 774px;
+  width: 158.45px;
+  height: 38px;
+}
+.microscopeMainChild1 {
+  position: absolute;
+  top: 1602px;
+  left: 331px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 777px;
+  height: 345px;
+}
+.pocketMicroscopeYourContainer2 {
+  position: absolute;
+  top: 1660px;
+  left: 774px;
+  display: inline-block;
+  width: 309px;
+  height: 198px;
+}
+.image11Icon {
+  position: absolute;
+  top: 1660px;
+  left: 394px;
+  border-radius: 10px;
+  width: 299px;
+  height: 225px;
+  object-fit: cover;
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1858px;
+  left: 774px;
+  width: 158.45px;
+  height: 38px;
+}
+.illustrationWaitingIcon,
+.illustrationWorldConnection {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.illustrationWorldConnection {
+  height: 14.11%;
+  width: 14.56%;
+  top: 26.62%;
+  right: 85.44%;
+  bottom: 59.27%;
+  left: 0;
+  opacity: 0.6;
+}
+.illustrationWaitingIcon {
+  height: 14.23%;
+  width: 15.83%;
+  top: 64.06%;
+  right: 0;
+  bottom: 21.71%;
+  left: 84.17%;
+}
+.rectangleFooter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #17002c;
+  width: 1440px;
+  height: 453px;
+}
+.documentation {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 176px;
+  left: 608px;
+  font-size: 16px;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  width: 118px;
+  height: 20px;
+}
+.a,
+.documentation,
+.infotheiriscoin,
+.termsConditions {
+  position: absolute;
+  text-decoration: underline;
+  display: inline-block;
+}
+.termsConditions {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 131px;
+  left: 608px;
+  font-size: 16px;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  width: 141px;
+  height: 20px;
+}
+.a,
+.infotheiriscoin {
+  top: 227px;
+  left: 972px;
+  color: inherit;
+  width: 349px;
+  height: 23px;
+}
+.infotheiriscoin {
+  top: 272px;
+  height: 34px;
+}
+.products1 {
+  color: #daedbd;
+}
+.and {
+  color: #fff;
+}
+.releases {
+  color: #9bb1ff;
+}
+.dontMissAnyContainer {
+  position: absolute;
+  top: 104px;
+  left: 258px;
+  font-size: 16px;
+  display: inline-block;
+  width: 291px;
+  height: 76px;
+}
+.getInTouch,
+.help {
+  top: 0;
+  text-transform: capitalize;
+  font-weight: 700;
+  width: 254.06px;
+  height: 45px;
+}
+.help {
+  position: absolute;
+  left: 350.21px;
+  display: inline-block;
+}
+.getInTouch {
+  left: 0;
+}
+.connect,
+.faq,
+.getInTouch {
+  position: absolute;
+  display: inline-block;
+}
+.faq {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 60px;
+  left: 350px;
+  font-size: 16px;
+  text-decoration: underline;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  width: 43px;
+  height: 20px;
+}
+.connect {
+  top: 0;
+  left: 670.94px;
+  text-transform: capitalize;
+  font-weight: 700;
+  width: 254.06px;
+  height: 45px;
+}
+.helpParent {
+  position: absolute;
+  top: 29px;
+  left: 258px;
+  width: 925px;
+  height: 80px;
+  font-size: 32px;
+}
+.iconLocationPin,
+.iconMailRu,
+.iconPhone {
+  position: absolute;
+  height: 7.51%;
+  width: 1.88%;
+  top: 36.2%;
+  right: 33.61%;
+  bottom: 56.29%;
+  left: 64.51%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconMailRu,
+.iconPhone {
+  height: 6.62%;
+  width: 2.08%;
+  top: 48.57%;
+  right: 33.75%;
+  bottom: 44.81%;
+  left: 64.17%;
+}
+.iconMailRu {
+  width: 2.17%;
+  top: 60.04%;
+  right: 33.52%;
+  bottom: 33.33%;
+  left: 64.31%;
+}
+.oilMillRoad {
+  position: absolute;
+  top: 172px;
+  left: 972px;
+  display: inline-block;
+  width: 211px;
+  height: 34px;
+}
+.iconInstagram,
+.iconLinkedin,
+.iconYoutube,
+.vectorIcon {
+  position: absolute;
+  height: 7.73%;
+  width: 2.43%;
+  top: 19.65%;
+  right: 33.06%;
+  bottom: 72.63%;
+  left: 64.51%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconLinkedin,
+.iconYoutube,
+.vectorIcon {
+  height: 6.62%;
+  width: 2.96%;
+  top: 24.06%;
+  right: 29.06%;
+  bottom: 69.32%;
+  left: 67.99%;
+}
+.iconLinkedin,
+.vectorIcon {
+  height: 7.73%;
+  width: 2.43%;
+  top: 19.65%;
+  right: 25.63%;
+  bottom: 72.63%;
+  left: 71.94%;
+}
+.iconLinkedin {
+  top: 23.4%;
+  right: 22.15%;
+  bottom: 68.87%;
+  left: 75.42%;
+}
+.privacy,
+.supportPolicy {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 215px;
+  left: 608px;
+  font-size: 16px;
+  text-decoration: underline;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  width: 107px;
+  height: 20px;
+}
+.privacy {
+  top: 257px;
+  width: 57px;
+}
+.groupChild1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 237px;
+  height: 37px;
+}
+.email {
+  position: absolute;
+  top: 11px;
+  left: 16px;
+  display: inline-block;
+  width: 116px;
+  height: 13px;
+}
+.rectangleIcon {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  border-radius: 20px;
+  width: 102px;
+  height: 26.45px;
+}
+.subscribe {
+  position: absolute;
+  top: 4.72px;
+  left: 25px;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  width: 50px;
+  height: 10px;
+}
+.vectorParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 6.28px;
+  left: 132px;
+  width: 100px;
+  height: 24.45px;
+}
+.rectangleParent1 {
+  position: absolute;
+  top: 180px;
+  left: 258px;
+  width: 237px;
+  height: 37px;
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.38);
+}
+.groupDiv {
+  position: absolute;
+  top: 2035px;
+  left: -3px;
+  width: 1440px;
+  height: 453px;
+  color: #fff;
+}
+.microscopeMain {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 2404px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 15px;
+  color: #000;
+  font-family: Fredoka;
+}

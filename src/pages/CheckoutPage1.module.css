@@ -1,0 +1,1132 @@
+.home {
+  display: inline-block;
+  width: 59px;
+  flex-shrink: 0;
+}
+.home,
+.products {
+  position: relative;
+  text-transform: capitalize;
+}
+.navLinks,
+.productsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navLinks {
+  position: absolute;
+  top: 28px;
+  left: 1012px;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.theIris {
+  position: absolute;
+  top: 27px;
+  left: 140px;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+.logo2Icon {
+  position: absolute;
+  top: 23px;
+  left: 76px;
+  width: 44px;
+  height: 45px;
+  object-fit: cover;
+}
+.navs {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  background-color: #17002c;
+  border: 4px solid #000;
+  box-sizing: border-box;
+  width: 1449px;
+  height: 83px;
+  overflow: hidden;
+  color: #fff;
+}
+.checkoutPage1 {
+  position: absolute;
+  top: 181px;
+  left: 504px;
+  font-size: 64px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.checkoutPageChild {
+  position: absolute;
+  top: 323.5px;
+  left: 256.5px;
+  border-top: 1px solid #000;
+  box-sizing: border-box;
+  width: 926px;
+  height: 1px;
+}
+.accountDetailsChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #f7fafc;
+  width: 789px;
+  height: 782.92px;
+}
+.emailAddress,
+.password {
+  position: absolute;
+  height: 2.91%;
+  width: 10.81%;
+  top: 35.78%;
+  left: 11.96%;
+  font-weight: 500;
+  color: #718096;
+  display: inline-block;
+}
+.emailAddress {
+  width: 15.42%;
+  top: 18.96%;
+}
+.accountSummaryChild,
+.accountSummaryItem {
+  position: absolute;
+  height: 9.02%;
+  width: 76.95%;
+  right: 11.1%;
+  left: 11.96%;
+  border-radius: 5px;
+  background-color: #e2e8f0;
+}
+.accountSummaryChild {
+  border: 0;
+  top: 40.37%;
+  bottom: 50.61%;
+}
+.accountSummaryItem {
+  top: 25.08%;
+  bottom: 65.9%;
+}
+.div {
+  position: absolute;
+  height: 2.91%;
+  width: 9.65%;
+  top: 43.58%;
+  left: 14.84%;
+  font-weight: 500;
+  display: inline-block;
+}
+.checkboxCircleFill1Icon {
+  position: absolute;
+  height: 3.67%;
+  width: 3.46%;
+  top: 43.12%;
+  right: 13.98%;
+  bottom: 53.21%;
+  left: 82.56%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.emailmyemailcom {
+  position: absolute;
+  height: 2.91%;
+  width: 22.62%;
+  top: 28.13%;
+  left: 14.84%;
+  font-weight: 500;
+  display: inline-block;
+}
+.checkboxCircleFill2Icon {
+  position: absolute;
+  height: 3.67%;
+  width: 3.46%;
+  top: 27.68%;
+  right: 13.98%;
+  bottom: 68.65%;
+  left: 82.56%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupChild,
+.rectangleWrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.groupChild {
+  border-radius: 10px;
+  background-color: #3182ce;
+}
+.rectangleWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.next {
+  position: absolute;
+  height: 32.87%;
+  width: 17.75%;
+  top: 34.34%;
+  left: 41.19%;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #f7fafc;
+  text-align: left;
+  display: inline-block;
+}
+.groupParent,
+.rectangleContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 9.17%;
+  width: 28.82%;
+  top: 90.83%;
+  right: 11.38%;
+  bottom: 0;
+  left: 59.8%;
+}
+.rectangleContainer {
+  height: 100%;
+  width: 44.64%;
+  top: 0;
+  right: 0;
+  left: 55.36%;
+}
+.login,
+.registerForAccount {
+  position: absolute;
+  height: 31.67%;
+  width: 12.8%;
+  top: 33.33%;
+  left: 71.13%;
+  font-weight: 500;
+  display: inline-block;
+}
+.registerForAccount {
+  width: 46.43%;
+  left: 0;
+  color: #2d3748;
+}
+.groupContainer {
+  position: absolute;
+  height: 9.17%;
+  width: 48.41%;
+  top: 54.74%;
+  right: 11.38%;
+  bottom: 36.09%;
+  left: 40.2%;
+  color: #f7fafc;
+}
+.cancelOrder {
+  position: absolute;
+  height: 2.91%;
+  width: 14.27%;
+  top: 93.88%;
+  left: 38.33%;
+  font-weight: 500;
+  color: #4a5568;
+  display: inline-block;
+}
+.accountSummaryInner {
+  position: absolute;
+  height: 0.15%;
+  width: 100.14%;
+  top: 84.86%;
+  right: -0.07%;
+  bottom: 14.99%;
+  left: -0.07%;
+  border-top: 1px solid #e2e8f0;
+  box-sizing: border-box;
+}
+.account,
+.accountDetails1,
+.payment,
+.shipping {
+  position: absolute;
+  height: 3.67%;
+  font-size: 20px;
+  font-weight: 500;
+  display: inline-block;
+}
+.accountDetails1 {
+  width: 21.47%;
+  top: 10.55%;
+  left: 11.96%;
+  color: #000;
+}
+.account,
+.payment,
+.shipping {
+  top: 0.15%;
+}
+.account {
+  width: 11.53%;
+  left: 11.96%;
+  color: #3182ce;
+}
+.payment,
+.shipping {
+  width: 12.1%;
+  left: 42.07%;
+}
+.payment {
+  left: 72.77%;
+}
+.accountSummaryChild1,
+.groupIcon {
+  position: absolute;
+  height: 3.67%;
+  width: 13.83%;
+  top: 0;
+  right: 29.25%;
+  bottom: 96.33%;
+  left: 56.92%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.accountSummaryChild1 {
+  top: 0.31%;
+  right: 60.23%;
+  bottom: 96.02%;
+  left: 25.94%;
+}
+.accountDetails,
+.accountSummary {
+  position: absolute;
+  top: 50.71px;
+  left: 42.59px;
+  width: 703.81px;
+  height: 663.25px;
+}
+.accountDetails {
+  top: 412px;
+  left: 54px;
+  width: 789px;
+  height: 782.92px;
+  color: #2d3748;
+  font-family: Inter;
+}
+.products1 {
+  position: relative;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+.navLinks1 {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.iconCart,
+.iconUser {
+  position: absolute;
+  height: 96.55%;
+  width: 5.7%;
+  top: 3.45%;
+  right: 11.11%;
+  bottom: 0;
+  left: 83.19%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconUser {
+  width: 4.38%;
+  top: 0;
+  right: 0;
+  bottom: 3.45%;
+  left: 95.62%;
+}
+.iconnav,
+.navs1 {
+  position: absolute;
+  top: 23px;
+  left: 909px;
+  width: 490.47px;
+  height: 29px;
+}
+.navs1 {
+  top: -4px;
+  left: -4px;
+  background-color: #17002c;
+  border: 4px solid #000;
+  box-sizing: border-box;
+  width: 1449px;
+  height: 83px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Fredoka;
+}
+.checkoutPage2 {
+  position: absolute;
+  top: 181px;
+  left: 504px;
+  font-size: 64px;
+  text-transform: capitalize;
+  font-weight: 700;
+  text-align: center;
+}
+.accountDetails2 {
+  position: absolute;
+  top: 412px;
+  left: 54px;
+  width: 789px;
+  height: 782.92px;
+}
+.orderSummaryChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #f7fafc;
+  width: 513px;
+  height: 772px;
+}
+.orderSummary2,
+.pocketMicroscope {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+}
+.pocketMicroscope {
+  top: 43.7%;
+}
+.div1,
+.rs699 {
+  position: absolute;
+  top: 48.3%;
+  left: 0.71%;
+}
+.div1 {
+  top: 46.22%;
+  left: 82.9%;
+  font-weight: 500;
+}
+.groupInner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 5px;
+  background-color: #e2e8f0;
+}
+.subtractFill1Icon {
+  position: absolute;
+  height: 60%;
+  width: 60%;
+  top: 30%;
+  right: 17.5%;
+  bottom: 10%;
+  left: 22.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 5.93%;
+  width: 9.5%;
+  top: 45.19%;
+  right: 20.43%;
+  bottom: 48.89%;
+  left: 70.07%;
+}
+.shipping1,
+.subTotal,
+.tax {
+  position: absolute;
+  top: 69.19%;
+  left: 0.71%;
+  font-size: 18px;
+  font-weight: 500;
+  color: #4a5568;
+}
+.shipping1,
+.tax {
+  top: 78.22%;
+}
+.shipping1 {
+  top: 87.26%;
+}
+.free,
+.rs5,
+.rs6991,
+.rs704,
+.total {
+  position: absolute;
+  top: 96.44%;
+  left: 0.71%;
+  color: #2d3748;
+}
+.free,
+.rs5,
+.rs6991,
+.rs704 {
+  left: 83.61%;
+  font-weight: 500;
+}
+.free,
+.rs5,
+.rs6991 {
+  top: 87.41%;
+  left: 89.55%;
+  color: #38b2ac;
+}
+.rs5,
+.rs6991 {
+  top: 77.33%;
+  left: 89.79%;
+  color: #2d3748;
+}
+.rs6991 {
+  top: 69.63%;
+  left: 83.14%;
+}
+.addLine1Icon {
+  position: absolute;
+  height: 60%;
+  width: 60%;
+  top: 17.5%;
+  right: 22.5%;
+  bottom: 22.5%;
+  left: 17.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 5.93%;
+  width: 9.5%;
+  top: 45.19%;
+  right: 0.24%;
+  bottom: 48.89%;
+  left: 90.26%;
+}
+.image11Icon {
+  position: absolute;
+  height: 24.59%;
+  width: 99.05%;
+  top: 12.15%;
+  right: 0.24%;
+  bottom: 63.26%;
+  left: 0.71%;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.orderSummary,
+.orderSummary1 {
+  position: absolute;
+  top: 36px;
+  left: 45px;
+  width: 421px;
+  height: 675px;
+}
+.orderSummary {
+  top: 412px;
+  left: 879px;
+  width: 513px;
+  height: 772px;
+  font-size: 20px;
+  color: #000;
+  font-family: Inter;
+}
+.postcode,
+.secondLineOf,
+.shippingDetails,
+.streetName {
+  position: absolute;
+  top: 8.9%;
+  left: 11.67%;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+}
+.postcode,
+.secondLineOf,
+.streetName {
+  top: 30.98%;
+  font-size: 16px;
+  color: #718096;
+}
+.postcode,
+.streetName {
+  top: 48.77%;
+}
+.postcode {
+  top: 66.56%;
+}
+.shippingSummaryChild,
+.shippingSummaryInner,
+.shippingSummaryItem {
+  border: 0;
+  background-color: #e2e8f0;
+  position: absolute;
+  height: 9.05%;
+  width: 76.95%;
+  top: 35.12%;
+  right: 11.38%;
+  bottom: 55.83%;
+  left: 11.67%;
+  border-radius: 5px;
+}
+.shippingSummaryInner,
+.shippingSummaryItem {
+  top: 52.76%;
+  bottom: 38.19%;
+}
+.shippingSummaryInner {
+  width: 30.55%;
+  top: 70.55%;
+  right: 57.78%;
+  bottom: 20.4%;
+}
+.abc123,
+.div2,
+.electricAvenue {
+  position: absolute;
+  top: 38.5%;
+  left: 14.55%;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #2d3748;
+  text-align: left;
+}
+.abc123,
+.electricAvenue {
+  top: 55.83%;
+}
+.abc123 {
+  top: 73.62%;
+}
+.rectangleFrame {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.payment1 {
+  position: absolute;
+  top: 33.33%;
+  left: 29.5%;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #f7fafc;
+  text-align: left;
+}
+.cancelOrder1,
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.groupButton {
+  height: 9.2%;
+  width: 28.82%;
+  top: 90.8%;
+  right: 11.38%;
+  bottom: 0;
+  left: 59.8%;
+}
+.cancelOrder1 {
+  top: 93.87%;
+  left: 38.33%;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #4a5568;
+  text-align: left;
+  display: inline-block;
+}
+.lineDiv {
+  position: absolute;
+  height: 0.15%;
+  width: 100.14%;
+  top: 84.82%;
+  right: -0.07%;
+  bottom: 15.03%;
+  left: -0.07%;
+  border-top: 1px solid #e2e8f0;
+  box-sizing: border-box;
+}
+.account1,
+.payment2,
+.shipping2 {
+  position: absolute;
+  top: 0.15%;
+  left: 12.39%;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #3182ce;
+  text-align: left;
+}
+.payment2,
+.shipping2 {
+  left: 42.51%;
+}
+.payment2 {
+  left: 73.2%;
+  color: #2d3748;
+}
+.shippingSummaryChild1,
+.shippingSummaryChild2 {
+  position: absolute;
+  height: 3.68%;
+  width: 13.83%;
+  top: 0;
+  right: 28.82%;
+  bottom: 96.32%;
+  left: 57.35%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.shippingSummaryChild2 {
+  top: 0.31%;
+  right: 59.8%;
+  bottom: 96.01%;
+  left: 26.37%;
+}
+.firstLineOf {
+  position: absolute;
+  top: 15.03%;
+  left: 11.53%;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #718096;
+  text-align: left;
+}
+.rectangleInput {
+  border: 0;
+  background-color: #e2e8f0;
+  position: absolute;
+  height: 9.05%;
+  width: 76.95%;
+  top: 19.17%;
+  right: 11.53%;
+  bottom: 71.78%;
+  left: 11.53%;
+  border-radius: 5px;
+}
+.abc1231,
+.phoneNumber {
+  position: absolute;
+  top: 22.39%;
+  left: 14.12%;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #2d3748;
+  text-align: left;
+}
+.phoneNumber {
+  width: 16.86%;
+  top: 66.56%;
+  left: 46.54%;
+  color: #718096;
+  display: inline-block;
+}
+.shippingSummaryChild3 {
+  border: 0;
+  background-color: #e2e8f0;
+  position: absolute;
+  height: 9.05%;
+  width: 42.07%;
+  top: 70.55%;
+  right: 11.38%;
+  bottom: 20.4%;
+  left: 46.54%;
+  border-radius: 5px;
+}
+.div3 {
+  position: absolute;
+  width: 15.27%;
+  top: 73.62%;
+  left: 50%;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #2d3748;
+  text-align: left;
+  display: inline-block;
+}
+.rectangleFooter {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #17002c;
+}
+.documentation,
+.termsConditions {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 4.42%;
+  width: 8.19%;
+  top: 38.85%;
+  left: 42.22%;
+  font-size: 16px;
+  text-decoration: underline;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+}
+.termsConditions {
+  width: 9.79%;
+  top: 28.92%;
+}
+.p {
+  margin: 0;
+}
+.a,
+.infotheiriscoin {
+  position: absolute;
+  height: 5.08%;
+  width: 24.24%;
+  top: 50.11%;
+  left: 67.5%;
+  font-size: 15px;
+  text-decoration: underline;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+}
+.infotheiriscoin {
+  height: 7.51%;
+  top: 60.04%;
+}
+.dontMissAny {
+  color: #fff;
+}
+.products2 {
+  color: #daedbd;
+}
+.releases {
+  color: #9bb1ff;
+}
+.dontMissAnyContainer {
+  position: absolute;
+  height: 16.78%;
+  width: 20.21%;
+  top: 22.96%;
+  left: 17.92%;
+  font-size: 16px;
+  font-family: Fredoka;
+  text-align: left;
+  display: inline-block;
+}
+.getInTouch,
+.help {
+  height: 56.25%;
+  width: 27.47%;
+  top: 0;
+  font-size: 32px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.help {
+  position: absolute;
+  left: 37.86%;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+}
+.getInTouch {
+  left: 0;
+}
+.connect,
+.faq,
+.getInTouch {
+  position: absolute;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+}
+.faq {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 25%;
+  width: 4.65%;
+  top: 75%;
+  left: 37.84%;
+  font-size: 16px;
+  text-decoration: underline;
+}
+.connect {
+  height: 56.25%;
+  width: 27.47%;
+  top: 0;
+  left: 72.53%;
+  font-size: 32px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.helpParent {
+  position: absolute;
+  height: 17.66%;
+  width: 64.24%;
+  top: 6.4%;
+  right: 17.85%;
+  bottom: 75.94%;
+  left: 17.92%;
+}
+.iconLocationPin,
+.iconMailRu,
+.iconPhone {
+  position: absolute;
+  height: 7.51%;
+  width: 1.88%;
+  top: 36.2%;
+  right: 33.61%;
+  bottom: 56.29%;
+  left: 64.51%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconMailRu,
+.iconPhone {
+  height: 6.62%;
+  width: 2.08%;
+  top: 48.57%;
+  right: 33.75%;
+  bottom: 44.81%;
+  left: 64.17%;
+}
+.iconMailRu {
+  width: 2.17%;
+  top: 60.04%;
+  right: 33.52%;
+  bottom: 33.33%;
+  left: 64.31%;
+}
+.oilMillRoad {
+  position: absolute;
+  height: 7.51%;
+  width: 14.65%;
+  top: 37.97%;
+  left: 67.5%;
+  font-size: 15px;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+}
+.iconInstagram,
+.iconLinkedin,
+.iconYoutube,
+.vectorIcon {
+  position: absolute;
+  height: 7.73%;
+  width: 2.43%;
+  top: 19.65%;
+  right: 33.06%;
+  bottom: 72.63%;
+  left: 64.51%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconLinkedin,
+.iconYoutube,
+.vectorIcon {
+  height: 6.62%;
+  width: 2.96%;
+  top: 24.06%;
+  right: 29.06%;
+  bottom: 69.32%;
+  left: 67.99%;
+}
+.iconLinkedin,
+.vectorIcon {
+  height: 7.73%;
+  width: 2.43%;
+  top: 19.65%;
+  right: 25.63%;
+  bottom: 72.63%;
+  left: 71.94%;
+}
+.iconLinkedin {
+  top: 23.4%;
+  right: 22.15%;
+  bottom: 68.87%;
+  left: 75.42%;
+}
+.privacy,
+.supportPolicy {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 4.42%;
+  width: 7.43%;
+  top: 47.46%;
+  left: 42.22%;
+  font-size: 16px;
+  text-decoration: underline;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+}
+.privacy {
+  width: 3.96%;
+  top: 56.73%;
+}
+.groupChild2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.email {
+  position: absolute;
+  height: 35.14%;
+  width: 48.95%;
+  top: 29.73%;
+  left: 6.75%;
+  font-size: 11px;
+  display: inline-block;
+  font-family: Fredoka;
+  color: rgba(0, 0, 0, 0.38);
+  text-align: left;
+}
+.rectangleIcon {
+  position: absolute;
+  height: 108.18%;
+  width: 102%;
+  top: -4.09%;
+  right: -1%;
+  bottom: -4.09%;
+  left: -1%;
+  border-radius: 20px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.subscribe {
+  position: absolute;
+  height: 40.91%;
+  width: 50%;
+  top: 19.32%;
+  left: 25%;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+}
+.vectorParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 66.07%;
+  width: 42.19%;
+  top: 16.96%;
+  right: 2.11%;
+  bottom: 16.96%;
+  left: 55.7%;
+}
+.groupDiv,
+.rectangleParent1 {
+  position: absolute;
+  height: 8.17%;
+  width: 16.46%;
+  top: 39.74%;
+  right: 65.63%;
+  bottom: 52.1%;
+  left: 17.92%;
+}
+.groupDiv {
+  height: 69.48%;
+  width: 207.49%;
+  top: 130.52%;
+  right: -92.36%;
+  bottom: -100%;
+  left: -15.13%;
+}
+.shippingSummary {
+  position: absolute;
+  top: 486px;
+  left: 98px;
+  width: 694px;
+  height: 652px;
+}
+.checkoutPage {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 1729px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #003574;
+  font-family: Fredoka;
+}

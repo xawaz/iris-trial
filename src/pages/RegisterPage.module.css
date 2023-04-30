@@ -1,0 +1,656 @@
+.home {
+  display: inline-block;
+  width: 59px;
+  flex-shrink: 0;
+}
+.home,
+.products {
+  position: relative;
+  text-transform: capitalize;
+}
+.navLinks,
+.productsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navLinks {
+  position: absolute;
+  top: 28px;
+  left: 1012px;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.theIris {
+  position: absolute;
+  top: 27px;
+  left: 140px;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+.logo2Icon {
+  position: absolute;
+  top: 23px;
+  left: 76px;
+  width: 44px;
+  height: 45px;
+  object-fit: cover;
+}
+.navs {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  background-color: #17002c;
+  border: 4px solid #000;
+  box-sizing: border-box;
+  width: 1449px;
+  height: 83px;
+  overflow: hidden;
+}
+.registerForNew {
+  position: absolute;
+  top: 181px;
+  left: 347px;
+  font-size: 64px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #003574;
+  text-align: center;
+}
+.registerPageChild {
+  position: absolute;
+  top: 323.5px;
+  left: 256.5px;
+  border-top: 1px solid #000;
+  box-sizing: border-box;
+  width: 926px;
+  height: 1px;
+}
+.accountDetailsChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #f7fafc;
+  width: 789px;
+  height: 722.92px;
+}
+.fillInThe,
+.password {
+  position: absolute;
+  height: 3.07%;
+  width: 43.6%;
+  top: 9.96%;
+  left: 16.1%;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+}
+.password {
+  height: 3.15%;
+  width: 10.81%;
+  top: 47.65%;
+  left: 11.96%;
+  font-size: 16px;
+  color: #718096;
+}
+.accountSummaryChild {
+  border: 0;
+  background-color: #e2e8f0;
+  position: absolute;
+  height: 9.77%;
+  width: 76.95%;
+  top: 52.62%;
+  right: 11.1%;
+  bottom: 37.61%;
+  left: 11.96%;
+  border-radius: 5px;
+}
+.accountSummaryItem,
+.div {
+  font-weight: 500;
+  font-family: Inter;
+  font-size: 16px;
+  position: absolute;
+}
+.div {
+  height: 3.15%;
+  width: 9.65%;
+  top: 56.1%;
+  left: 14.84%;
+  color: #2d3748;
+  text-align: left;
+  display: inline-block;
+}
+.accountSummaryItem {
+  border: 0;
+  background-color: transparent;
+  height: 16.39%;
+  width: 76.95%;
+  top: 29.44%;
+  right: 11.1%;
+  bottom: 54.17%;
+  left: 11.96%;
+}
+.groupChild {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #3182ce;
+  border-radius: 10px;
+}
+.groupChild,
+.rectangleWrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.registerForAccount {
+  position: absolute;
+  height: 31.67%;
+  width: 79.9%;
+  top: 33.33%;
+  left: 11.62%;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+}
+.groupParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 9.94%;
+  width: 28.13%;
+  top: 89.24%;
+  right: 11.06%;
+  bottom: 0.82%;
+  left: 60.81%;
+}
+.reEnterPassword {
+  position: absolute;
+  height: 3.1%;
+  width: 21.88%;
+  top: 64.14%;
+  left: 11.99%;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #718096;
+  text-align: left;
+  display: inline-block;
+}
+.accountSummaryInner {
+  border: 0;
+  background-color: #e2e8f0;
+  position: absolute;
+  height: 9.77%;
+  width: 76.95%;
+  top: 69.11%;
+  right: 11.06%;
+  bottom: 21.12%;
+  left: 11.99%;
+  border-radius: 5px;
+}
+.div1,
+.name {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter;
+  text-align: left;
+  display: inline-block;
+}
+.div1 {
+  position: absolute;
+  height: 3.15%;
+  width: 9.65%;
+  top: 72.59%;
+  left: 14.87%;
+  color: #2d3748;
+}
+.name {
+  height: 19.19%;
+  width: 20.04%;
+  top: 0;
+  left: 0;
+  color: #718096;
+}
+.groupItem,
+.name,
+.xyz {
+  position: absolute;
+}
+.groupItem {
+  border: 0;
+  background-color: #e2e8f0;
+  height: 59.6%;
+  width: 100%;
+  top: 40.4%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 5px;
+}
+.xyz {
+  height: 19.19%;
+  width: 29.4%;
+  top: 60.61%;
+  left: 3.75%;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #2d3748;
+  text-align: left;
+  display: inline-block;
+}
+.nameParent {
+  position: absolute;
+  height: 16.39%;
+  width: 76.95%;
+  top: 10.26%;
+  right: 11.06%;
+  bottom: 73.35%;
+  left: 11.99%;
+}
+.accountDetails,
+.accountSummary {
+  position: absolute;
+  top: 54.48px;
+  left: 43px;
+  width: 703.81px;
+  height: 612.42px;
+}
+.accountDetails {
+  top: 390px;
+  left: 326px;
+  width: 789px;
+  height: 722.92px;
+}
+.products1 {
+  position: relative;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+.navLinks1 {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.iconCart,
+.iconUser {
+  position: absolute;
+  height: 96.55%;
+  width: 5.7%;
+  top: 3.45%;
+  right: 11.11%;
+  bottom: 0;
+  left: 83.19%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconUser {
+  width: 4.38%;
+  top: 0;
+  right: 0;
+  bottom: 3.45%;
+  left: 95.62%;
+}
+.iconnav,
+.navs1 {
+  position: absolute;
+  top: 23px;
+  left: 918px;
+  width: 490.47px;
+  height: 29px;
+}
+.navs1 {
+  top: -4px;
+  left: -4px;
+  background-color: #17002c;
+  border: 4px solid #000;
+  box-sizing: border-box;
+  width: 1449px;
+  height: 83px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Fredoka;
+}
+.illustrationRocketLaunch,
+.illustrationWorldConnection {
+  position: absolute;
+  height: 19.15%;
+  width: 14.79%;
+  top: 26.93%;
+  right: 0;
+  bottom: 53.92%;
+  left: 85.21%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.5;
+}
+.illustrationWorldConnection {
+  height: 17.91%;
+  width: 22.99%;
+  top: 47.82%;
+  right: 77.01%;
+  bottom: 34.27%;
+  left: 0;
+  opacity: 0.4;
+}
+.groupInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #17002c;
+  width: 1440px;
+  height: 453px;
+}
+.documentation,
+.termsConditions {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 176px;
+  left: 608px;
+  font-size: 16px;
+  text-decoration: underline;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  width: 118px;
+  height: 20px;
+}
+.termsConditions {
+  top: 131px;
+  width: 141px;
+}
+.p {
+  margin: 0;
+}
+.a,
+.infotheiriscoin {
+  position: absolute;
+  top: 227px;
+  left: 972px;
+  text-decoration: underline;
+  color: inherit;
+  display: inline-block;
+  width: 349px;
+  height: 23px;
+}
+.infotheiriscoin {
+  top: 272px;
+  height: 34px;
+}
+.products2 {
+  color: #daedbd;
+}
+.and {
+  color: #fff;
+}
+.releases {
+  color: #9bb1ff;
+}
+.dontMissAnyContainer {
+  position: absolute;
+  top: 104px;
+  left: 258px;
+  font-size: 16px;
+  display: inline-block;
+  width: 291px;
+  height: 76px;
+}
+.getInTouch,
+.help {
+  top: 0;
+  text-transform: capitalize;
+  font-weight: 700;
+  width: 254.06px;
+  height: 45px;
+}
+.help {
+  position: absolute;
+  left: 350.21px;
+  display: inline-block;
+}
+.getInTouch {
+  left: 0;
+}
+.connect,
+.faq,
+.getInTouch {
+  position: absolute;
+  display: inline-block;
+}
+.faq {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 60px;
+  left: 350px;
+  font-size: 16px;
+  text-decoration: underline;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  width: 43px;
+  height: 20px;
+}
+.connect {
+  top: 0;
+  left: 670.94px;
+  text-transform: capitalize;
+  font-weight: 700;
+  width: 254.06px;
+  height: 45px;
+}
+.helpParent {
+  position: absolute;
+  top: 29px;
+  left: 258px;
+  width: 925px;
+  height: 80px;
+  font-size: 32px;
+}
+.iconLocationPin,
+.iconMailRu,
+.iconPhone {
+  position: absolute;
+  height: 7.51%;
+  width: 1.88%;
+  top: 36.2%;
+  right: 33.61%;
+  bottom: 56.29%;
+  left: 64.51%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconMailRu,
+.iconPhone {
+  height: 6.62%;
+  width: 2.08%;
+  top: 48.57%;
+  right: 33.75%;
+  bottom: 44.81%;
+  left: 64.17%;
+}
+.iconMailRu {
+  width: 2.17%;
+  top: 60.04%;
+  right: 33.52%;
+  bottom: 33.33%;
+  left: 64.31%;
+}
+.oilMillRoad {
+  position: absolute;
+  top: 172px;
+  left: 972px;
+  display: inline-block;
+  width: 211px;
+  height: 34px;
+}
+.iconInstagram,
+.iconLinkedin,
+.iconYoutube,
+.vectorIcon {
+  position: absolute;
+  height: 7.73%;
+  width: 2.43%;
+  top: 19.65%;
+  right: 33.06%;
+  bottom: 72.63%;
+  left: 64.51%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconLinkedin,
+.iconYoutube,
+.vectorIcon {
+  height: 6.62%;
+  width: 2.96%;
+  top: 24.06%;
+  right: 29.06%;
+  bottom: 69.32%;
+  left: 67.99%;
+}
+.iconLinkedin,
+.vectorIcon {
+  height: 7.73%;
+  width: 2.43%;
+  top: 19.65%;
+  right: 25.63%;
+  bottom: 72.63%;
+  left: 71.94%;
+}
+.iconLinkedin {
+  top: 23.4%;
+  right: 22.15%;
+  bottom: 68.87%;
+  left: 75.42%;
+}
+.privacy,
+.supportPolicy {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 215px;
+  left: 608px;
+  font-size: 16px;
+  text-decoration: underline;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  width: 107px;
+  height: 20px;
+}
+.privacy {
+  top: 257px;
+  width: 57px;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 237px;
+  height: 37px;
+}
+.email {
+  position: absolute;
+  top: 11px;
+  left: 16px;
+  display: inline-block;
+  width: 116px;
+  height: 13px;
+}
+.rectangleIcon {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  border-radius: 20px;
+  width: 102px;
+  height: 26.45px;
+}
+.subscribe {
+  position: absolute;
+  top: 4.72px;
+  left: 25px;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  width: 50px;
+  height: 10px;
+}
+.vectorParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 6.28px;
+  left: 132px;
+  width: 100px;
+  height: 24.45px;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 180px;
+  left: 258px;
+  width: 237px;
+  height: 37px;
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.38);
+}
+.rectangleParent {
+  position: absolute;
+  top: 1219px;
+  left: 2px;
+  width: 1440px;
+  height: 453px;
+  font-size: 15px;
+}
+.registerPage {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 1608px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Fredoka;
+}

@@ -1,0 +1,693 @@
+.home,
+.products {
+  position: relative;
+  text-transform: capitalize;
+}
+.home {
+  display: inline-block;
+  width: 59px;
+  flex-shrink: 0;
+}
+.products {
+  text-decoration: underline;
+}
+.productsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.about {
+  position: relative;
+  text-transform: capitalize;
+}
+.navLinks {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.iconCart,
+.iconUser {
+  position: absolute;
+  height: 96.55%;
+  width: 5.7%;
+  top: 3.45%;
+  right: 11.11%;
+  bottom: 0;
+  left: 83.19%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconUser {
+  width: 4.38%;
+  top: 0;
+  right: 0;
+  bottom: 3.45%;
+  left: 95.62%;
+}
+.iconnav {
+  position: absolute;
+  top: 23px;
+  left: 916px;
+  width: 490.47px;
+  height: 29px;
+}
+.theIris {
+  position: absolute;
+  top: 27px;
+  left: 140px;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+.logo2Icon {
+  position: absolute;
+  top: 23px;
+  left: 76px;
+  width: 44px;
+  height: 45px;
+  object-fit: cover;
+}
+.navs {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  background-color: #17002c;
+  border: 4px solid #000;
+  box-sizing: border-box;
+  width: 1449px;
+  height: 83px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Fredoka;
+}
+.contactUs1,
+.getInTouch {
+  position: absolute;
+  font-size: 64px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #003574;
+  -webkit-text-stroke: 1px #000;
+}
+.getInTouch {
+  top: 134px;
+  left: 559px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contactUs1 {
+  top: 944px;
+  left: 560px;
+}
+.contactChild,
+.contactInner,
+.contactItem {
+  position: absolute;
+  top: 314px;
+  left: 276px;
+  border-radius: 20px 20px 0 0;
+  background-color: #fff;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 2px solid #000;
+  box-sizing: border-box;
+  width: 268.33px;
+  height: 225px;
+}
+.contactInner,
+.contactItem {
+  top: 539px;
+  border-radius: 0 0 20px 20px;
+  background-color: #fffa8b;
+  border-top: 1px solid #000;
+  border-bottom: 2px solid #000;
+}
+.contactInner {
+  top: 314px;
+  left: 594.33px;
+  border-radius: 20px 20px 0 0;
+  background-color: #ff5757;
+  border-top: 2px solid #000;
+  border-bottom: 1px solid #000;
+}
+.email {
+  margin: 0;
+}
+.infotheiriscoin {
+  margin: 0;
+  font-size: 20px;
+}
+.emailInfotheiriscoin {
+  position: absolute;
+  top: 369px;
+  left: 648px;
+  text-transform: capitalize;
+  color: inherit;
+  font-size: 40px;
+}
+.contactChild1,
+.contactChild2,
+.rectangleDiv {
+  position: absolute;
+  top: 539px;
+  left: 594.33px;
+  border-radius: 0 0 20px 20px;
+  background-color: #fff;
+  border-top: 1px solid #000;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+  border-left: 2px solid #000;
+  box-sizing: border-box;
+  width: 268.33px;
+  height: 225px;
+}
+.contactChild1,
+.contactChild2 {
+  top: 314px;
+  left: 912.67px;
+  border-radius: 20px 20px 0 0;
+  border-top: 2px solid #000;
+  border-bottom: 1px solid #000;
+}
+.contactChild2 {
+  top: 539px;
+  border-radius: 0 0 20px 20px;
+  background-color: #9bff99;
+  border-top: 1px solid #000;
+  border-bottom: 2px solid #000;
+}
+.span {
+  text-decoration: underline;
+}
+.a {
+  color: inherit;
+}
+.oilMillRoadContainer,
+.phone9180500Container {
+  position: absolute;
+  top: 582px;
+  left: 330px;
+  text-transform: capitalize;
+  color: inherit;
+  font-size: 40px;
+}
+.oilMillRoadContainer {
+  top: 609px;
+  left: 905px;
+  font-size: 20px;
+  display: inline-block;
+  width: 284px;
+}
+.contactChild3,
+.contactChild4,
+.rectangleInput {
+  border: 1px solid #ced0c2;
+  background-color: #f9f6f6;
+  position: absolute;
+  top: 1101px;
+  left: 271px;
+  border-radius: 4px;
+  box-shadow: 0-8px 16px rgba(33, 34, 28, 0.05) inset;
+  box-sizing: border-box;
+  width: 885px;
+  height: 61px;
+}
+.contactChild3,
+.contactChild4 {
+  top: 1189px;
+  width: 413px;
+  height: 63px;
+}
+.contactChild4 {
+  border: 1px solid #d0c2c2;
+  top: 1309px;
+  left: 279px;
+  box-shadow: 0-16px 32px rgba(33, 34, 28, 0.05) inset;
+  width: 892px;
+  height: 198px;
+}
+.email1,
+.fullName {
+  position: absolute;
+  top: 1112px;
+  left: 297px;
+  font-family: Poppins;
+  text-align: left;
+  display: inline-block;
+  width: 196px;
+  height: 33px;
+}
+.email1 {
+  top: 1202px;
+  width: 75px;
+  height: 37px;
+}
+.contactChild5 {
+  border: 1px solid #ced0c2;
+  background-color: #f9f6f6;
+  position: absolute;
+  top: 1189px;
+  left: 743px;
+  border-radius: 4px;
+  box-shadow: 0-8px 16px rgba(33, 34, 28, 0.05) inset;
+  box-sizing: border-box;
+  width: 413px;
+  height: 63px;
+}
+.phone1,
+.typeYourMessage {
+  position: absolute;
+  top: 1202px;
+  left: 769px;
+  font-family: Poppins;
+  text-align: left;
+  display: inline-block;
+  width: 86px;
+  height: 37px;
+}
+.typeYourMessage {
+  top: 1322px;
+  left: 304px;
+  line-height: 141%;
+  width: 841px;
+  height: 346px;
+}
+.groupChild {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  border-radius: 20px;
+  background-color: #17002c;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  width: 344px;
+  height: 95px;
+}
+.submit {
+  position: absolute;
+  top: 19px;
+  left: 28px;
+  font-size: 48px;
+  font-weight: 600;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  width: 190px;
+  height: 49px;
+}
+.image2Icon,
+.image2Wrapper,
+.rectangleParent {
+  position: absolute;
+  width: 53.87px;
+  height: 55.85px;
+}
+.image2Icon {
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.image2Wrapper,
+.rectangleParent {
+  top: 19px;
+  left: 270px;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 1621px;
+  left: 554px;
+  width: 342px;
+  height: 93px;
+}
+.illustrationProblemSolving {
+  position: absolute;
+  height: 15.87%;
+  width: 17.85%;
+  top: 52.72%;
+  right: 0;
+  bottom: 31.41%;
+  left: 82.15%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.5;
+}
+.iconLocationPin,
+.iconMailRu,
+.iconPhone,
+.illustrationQuestionIcon {
+  position: absolute;
+  height: 16.32%;
+  width: 15.8%;
+  top: 15.65%;
+  right: 84.2%;
+  bottom: 68.03%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconLocationPin,
+.iconMailRu,
+.iconPhone {
+  height: 4.29%;
+  width: 6.94%;
+  top: 16.03%;
+  right: 68.75%;
+  bottom: 79.68%;
+  left: 24.31%;
+}
+.iconLocationPin,
+.iconMailRu {
+  width: 7.24%;
+  top: 25.68%;
+  right: 46.37%;
+  bottom: 70.04%;
+  left: 46.39%;
+}
+.iconLocationPin {
+  width: 5.21%;
+  top: 15.99%;
+  right: 25.56%;
+  bottom: 79.73%;
+  left: 69.24%;
+}
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #17002c;
+  width: 1440px;
+  height: 453px;
+}
+.documentation {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 176px;
+  left: 608px;
+  font-size: 16px;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  width: 118px;
+  height: 20px;
+}
+.a1,
+.documentation,
+.infotheiriscoin3,
+.termsConditions {
+  position: absolute;
+  text-decoration: underline;
+  display: inline-block;
+}
+.termsConditions {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 131px;
+  left: 608px;
+  font-size: 16px;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  width: 141px;
+  height: 20px;
+}
+.a1,
+.infotheiriscoin3 {
+  top: 227px;
+  left: 972px;
+  color: inherit;
+  width: 349px;
+  height: 23px;
+}
+.infotheiriscoin3 {
+  top: 272px;
+  height: 34px;
+}
+.products1 {
+  color: #daedbd;
+}
+.and {
+  color: #fff;
+}
+.releases {
+  color: #9bb1ff;
+}
+.dontMissAnyContainer {
+  position: absolute;
+  top: 104px;
+  left: 258px;
+  font-size: 16px;
+  display: inline-block;
+  width: 291px;
+  height: 76px;
+}
+.getInTouch1,
+.help {
+  top: 0;
+  text-transform: capitalize;
+  font-weight: 700;
+  width: 254.06px;
+  height: 45px;
+}
+.help {
+  position: absolute;
+  left: 350.21px;
+  display: inline-block;
+}
+.getInTouch1 {
+  left: 0;
+}
+.connect,
+.faq,
+.getInTouch1 {
+  position: absolute;
+  display: inline-block;
+}
+.faq {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 60px;
+  left: 350px;
+  font-size: 16px;
+  text-decoration: underline;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  width: 43px;
+  height: 20px;
+}
+.connect {
+  top: 0;
+  left: 670.94px;
+  text-transform: capitalize;
+  font-weight: 700;
+  width: 254.06px;
+  height: 45px;
+}
+.helpParent {
+  position: absolute;
+  top: 29px;
+  left: 258px;
+  width: 925px;
+  height: 80px;
+  font-size: 32px;
+}
+.iconLocationPin1,
+.iconMailRu1,
+.iconPhone1 {
+  position: absolute;
+  height: 7.51%;
+  width: 1.88%;
+  top: 36.2%;
+  right: 33.61%;
+  bottom: 56.29%;
+  left: 64.51%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconMailRu1,
+.iconPhone1 {
+  height: 6.62%;
+  width: 2.08%;
+  top: 48.57%;
+  right: 33.75%;
+  bottom: 44.81%;
+  left: 64.17%;
+}
+.iconMailRu1 {
+  width: 2.17%;
+  top: 60.04%;
+  right: 33.52%;
+  bottom: 33.33%;
+  left: 64.31%;
+}
+.oilMillRoad1 {
+  position: absolute;
+  top: 172px;
+  left: 972px;
+  display: inline-block;
+  width: 211px;
+  height: 34px;
+}
+.iconInstagram,
+.iconLinkedin,
+.iconYoutube,
+.vectorIcon {
+  position: absolute;
+  height: 7.73%;
+  width: 2.43%;
+  top: 19.65%;
+  right: 33.06%;
+  bottom: 72.63%;
+  left: 64.51%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconLinkedin,
+.iconYoutube,
+.vectorIcon {
+  height: 6.62%;
+  width: 2.96%;
+  top: 24.06%;
+  right: 29.06%;
+  bottom: 69.32%;
+  left: 67.99%;
+}
+.iconLinkedin,
+.vectorIcon {
+  height: 7.73%;
+  width: 2.43%;
+  top: 19.65%;
+  right: 25.63%;
+  bottom: 72.63%;
+  left: 71.94%;
+}
+.iconLinkedin {
+  top: 23.4%;
+  right: 22.15%;
+  bottom: 68.87%;
+  left: 75.42%;
+}
+.privacy,
+.supportPolicy {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 215px;
+  left: 608px;
+  font-size: 16px;
+  text-decoration: underline;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  width: 107px;
+  height: 20px;
+}
+.privacy {
+  top: 257px;
+  width: 57px;
+}
+.groupInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 237px;
+  height: 37px;
+}
+.email2 {
+  position: absolute;
+  top: 11px;
+  left: 16px;
+  display: inline-block;
+  width: 116px;
+  height: 13px;
+}
+.rectangleIcon {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  border-radius: 20px;
+  width: 102px;
+  height: 26.45px;
+}
+.subscribe {
+  position: absolute;
+  top: 4.72px;
+  left: 25px;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: Fredoka;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  width: 50px;
+  height: 10px;
+}
+.vectorParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 6.28px;
+  left: 132px;
+  width: 100px;
+  height: 24.45px;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 180px;
+  left: 258px;
+  width: 237px;
+  height: 37px;
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.38);
+}
+.rectangleGroup {
+  position: absolute;
+  top: 1899px;
+  left: -4px;
+  width: 1440px;
+  height: 453px;
+  text-align: left;
+  font-size: 15px;
+  color: #fff;
+}
+.contact {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 2333px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 17px;
+  color: #21221c;
+  font-family: Fredoka;
+}
